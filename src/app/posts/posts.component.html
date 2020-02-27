@@ -1,1 +1,44 @@
-<p>posts works!</p>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <div class="hero-image">
+                <div class="hero-text">
+                    <h1>Welcome Folks</h1>
+                </div>
+              </div>    
+        </div>
+    </div>
+     
+    <div class="row">
+        <div class="col">
+            <nav class="navbar navbar-light bg-light header">
+           
+                <a class="navbar-brand" >Obssessed With Fitness</a>
+                <ul class="navbar-list">
+                    <li class="navbar-item"><a href="#" class="nav-link active">Home</a></li>
+                    <li class="navbar-item"><a href="#" class="nav-link">About</a></li>
+                    <li class="navbar-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+        </nav>
+    </div>
+        
+    </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md col-lg col-sm" *ngFor = "let card of card_detail">
+                    <div class="card h-100" style="width: 18rem;" >
+                        <img class="card-img-top img-fluid" src="../../assets/img/{{card.image}}.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">{{card.title}}</h5>
+                          <p class="card-text">{{card.text}}</p>
+                          <a href="{{card.link}}" class="btn btn-primary">Take me there!!</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+    
+  
