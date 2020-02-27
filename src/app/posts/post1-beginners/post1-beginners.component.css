@@ -1,0 +1,25 @@
+
+pre {
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+}
+
+main {
+    margin: 2rem;
+}
+
+[ class *= 'col-'] {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    align-items: center;
+    padding: 0;
+}
+
+[class *= 'row'] {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}

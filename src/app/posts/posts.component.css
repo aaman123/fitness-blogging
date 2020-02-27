@@ -1,0 +1,97 @@
+.container-fluid {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-image {
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/img/chest1.jpg");
+background-size: cover;
+max-width: 100%;
+height: 500px ;
+
+/* override the default margin for sibling elements  */
++ * {
+    margin-top: 0;
+}
+}
+
+.hero-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    padding: 0 5vw 2rem;
+    width: 100%;
+
+    @media (min-width: calc(550px + 10vw)) {
+    padding-left: calc((100vw - 550px) / 2);
+    padding-right: calc((100vw - 550px) / 2);
+    }
+
+    h1 {
+    text-shadow: 1px 1px 3px #eeddff66;
+    font-size: 2.25rem;
+    }
+
+    p,
+    a {
+    color: #222;
+    margin-top: 0;
+    }
+
+    a {
+    margin-top: 0.5rem;
+    }
+}
+
+.header {
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 5vw;
+    margin: 0;
+
+    @media (min-width: calc(550px + 10vw)) {
+        padding-left: calc((100vw - 550px - 0.5rem) / 2);
+        padding-right: calc((100vw - 550px - 0.5rem) / 2);
+    }
+}
+
+.navbar-list {
+    display: flex;
+}
+
+.navbar-item {
+    display: flex;
+    margin:1rem 1rem 0 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    text-emphasis: none;
+    color: black;
+}
+
+
+
+.col {
+    display: flex;
+    padding: 0;
+    margin: 1rem 0 0 0;
+}
+
+.card {
+margin:  1rem 1rem 1rem 0;
+}
+
+@media (min-width: 550px) {
+    .hero-image {
+    background-size: cover;
+    max-width: 50%;
+    height: 500px ;
+    }   
+}
