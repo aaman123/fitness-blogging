@@ -1,7 +1,7 @@
 
 /* override the default margin for sibling elements  */
 
-
+/* 
 
 .header {
     background: #eee;
@@ -15,7 +15,7 @@
         padding-left: calc((100vw - 550px - 0.5rem) / 2);
         padding-right: calc((100vw - 550px - 0.5rem) / 2);
     }
-}
+} */
 
 .navbar-list {
     display: flex;
@@ -43,3 +43,5 @@
 .card {
 margin:  1rem 1rem 1rem 0;
 }
+
+

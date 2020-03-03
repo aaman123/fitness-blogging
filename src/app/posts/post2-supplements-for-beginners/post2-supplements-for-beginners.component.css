@@ -46,7 +46,18 @@ img {
     .ON-buy{
         font-size: 8px;
     }
+
+    ul {
+        margin: 0;
+        padding: 0;
     }
+
+    .row {
+        margin: 0;
+    }
+
+    }
+
 
 
 

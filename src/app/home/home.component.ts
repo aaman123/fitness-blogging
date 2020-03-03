@@ -10,7 +10,7 @@ import { Card } from '../home/card-class';
 export class HomeComponent implements OnInit {
 
   card_detail = [
-    new Card('abs1.jpg' , 'Supplements for Beginners' , 'What are the best supplements that beginners should take??','post2'),
+    new Card('abs1.jpg' , 'Best Protein Supplements' , 'What are the best protein supplements available in the market??','post2'),
     new Card('body.jpg' , 'Bodybuilding: A Beginners Guide' , 'Everything you need to get started with a healthy life','post1'),
     // new Card('arms1.jpg' , 'everything u want to know about diet' , 'chikababu',''),
     // new Card('bhula.jpg' , 'everything u want to know about diet' , 'chikababu',''),
