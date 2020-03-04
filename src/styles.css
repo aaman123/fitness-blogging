@@ -1,8 +1,15 @@
 @import url("../src/assets/css/paper-kit.css");
+/* @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
+@import url("http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css"); */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 body , html {
     margin: 0;
-    background-color: #696969;
+    background-color: #bbe1fa;
+}
+
+p {
+    font-family: futura-pt;
 }
 
 h1 {
@@ -29,10 +36,11 @@ h3 {
 
 a:hover {
     cursor: pointer;
-    background-color: tomato;
+    font: teal;
 }
 
 h4 {
-    font-size: xx-large;
-    color: red;
+    font-size: 48px;
+    color: 1b262c;
+    font-family: playfair-display;
 }

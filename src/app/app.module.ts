@@ -8,6 +8,7 @@ import { PostsComponent } from './posts/posts.component';
 import { Post1BeginnersComponent } from './posts/post1-beginners/post1-beginners.component';
 import { Post2SupplementsForBeginnersComponent } from './posts/post2-supplements-for-beginners/post2-supplements-for-beginners.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,8 @@ import { Post2SupplementsForBeginnersComponent } from './posts/post2-supplements
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
