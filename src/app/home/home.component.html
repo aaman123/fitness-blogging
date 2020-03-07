@@ -2,7 +2,7 @@
         <div class="container">
           <div class="navbar-translate">
             <a class="navbar-brand" href="https://demos.creative-tim.com/paper-kit/index.html" rel="tooltip" title="Coded by Creative Tim" data-placement="bottom" target="_blank">
-              FIT21
+              <img class="logo" src="../../../assets/img/FastFit21.png"/>
             </a>
             <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-bar bar1"></span>
@@ -34,7 +34,7 @@
       <!-- End Navbar -->
       
     
-    <div class="page-header section-dark" style="background-image: url('./assets/img/chest1.jpg')">
+    <div class="page-header section-dark" id="bannerImage" [ngStyle]="changeImage()">
         <div class="filter"></div>
         <div class="content-center">
           <div class="container">
@@ -75,6 +75,3 @@
                 </div>
             </div>
         </div>
-      
-    
-  

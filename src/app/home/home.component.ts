@@ -1,14 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import { Card } from '../home/card-class';
 
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
 
-export class HomeComponent implements OnInit {
 
+export class HomeComponent implements OnInit {
+  
   card_detail = [
     new Card('abs1.jpg' , 'Best Protein Supplements' , 'What are the best protein supplements available in the market??','post2'),
     new Card('body.jpg' , 'Bodybuilding: A Beginners Guide' , 'Everything you need to get started with a healthy life','post1'),
@@ -23,4 +25,12 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
+  images = ["./assets/img/chest1.jpg","./assets/img/arms1.jpg.jpg","./assets/img/abs1.jpg.jpg"];
+
+  changeImage() {
+    var i = 0;
+    
+    var getImage = document.getElementById('bannerImage').style.backgroundImage = `url(${this.images[i]})`;
+    
+    }
 }

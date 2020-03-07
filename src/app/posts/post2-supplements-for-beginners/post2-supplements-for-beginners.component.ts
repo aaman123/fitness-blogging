@@ -12,4 +12,6 @@ export class Post2SupplementsForBeginnersComponent implements OnInit {
   ngOnInit() {
   }
 
+  
+
 }
