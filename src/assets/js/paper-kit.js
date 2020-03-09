@@ -26,6 +26,8 @@ var navbar_initialized,
   backgroundOrange = false,
   toggle_initialized = false;
 
+
+
 $(document).ready(function() {
   window_width = $(window).width();
   var big_image;
@@ -316,3 +318,4 @@ function debounce(func, wait, immediate) {
     if (immediate && !timeout) func.apply(context, args);
   };
 };
+
