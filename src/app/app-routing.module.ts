@@ -7,8 +7,8 @@ import { NewsletterComponent } from './newsletter/newsletter.component';
 
 const routes: Routes = [
   { path: '' , component: HomeComponent},
-  { path: 'post1' , component: Post1BeginnersComponent},
-  { path: 'post2' , component: Post2SupplementsForBeginnersComponent},
+  { path: 'bodybuilding_beginners_guide' , component: Post1BeginnersComponent},
+  { path: 'best_protein_supplements' , component: Post2SupplementsForBeginnersComponent},
   { path: 'newsletter' , component:NewsletterComponent}
 ];
 
