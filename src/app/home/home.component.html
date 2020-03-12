@@ -6,7 +6,7 @@
    <nav class="navbar navbar-expand-lg fixed-top navbar-transparent " color-on-scroll="300">
         <div class="container">
           <div class="navbar-translate">
-            <a class="navbar-brand" href="https://demos.creative-tim.com/paper-kit/index.html" rel="tooltip" title="Coded by Creative Tim" data-placement="bottom" target="_blank">
+            <a class="navbar-brand" routerLink="/" rel="tooltip" title="Fitness and HealthCare" data-placement="bottom" target="_blank">
               <img class="logo animated rubberBand infinite slower" src="../../../assets/img/FastFit21.png"/>
             </a>
             <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,12 +22,12 @@
                   Home
                 </a>
               </li>
-              <!--<li class="nav-item">
-                <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="#" target="_blank">
-                  About us
+              <li class="nav-item">
+                <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="http://www.bestfitnessplans.com/" target="_blank">
+                  Join BestFitnessPlans
                 </a>
               </li>
-              <li class="nav-item">
+              <!--<li class="nav-item">
                 <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="#" target="_blank">
                   Contact
                 </a>
@@ -67,8 +67,19 @@
         <div class="main">
             <div class="container">
                 <div class="row">
-                    <div class="col-md col-lg col-sm" style="display: flex;background-image: linear-gradient(#bdc3c7,#2c3e50);border-radius: 20px;">
-                        <div class="card h-50" style="width: 18rem;" >
+                    <div class="col-md col-lg col-sm card-col-flex">
+
+                        
+                      <div class="card h-50" style="width: 18rem;margin: 2.5rem;" >
+                        <img class="card-img-top img-fluid" src="../../assets/img/arms1.jpg.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 style="color: black;" class="card-title">Beginners Exercise</h5>
+                          <p style="color: white;" class="card-text">The exercises you need to be doing as a beginner.</p>
+                          <a routerLink="/beginners_exercise" class="btn btn-primary">Take me there!!</a>
+                        </div>
+                      </div>
+
+                        <div class="card h-50" style="width: 18rem;margin: 2.5rem;" >
                             <img class="card-img-top img-fluid" src="../../assets/img/abs1.jpg.jpg" alt="Card image cap">
                             <div class="card-body">
                               <h5 style="color: black;" class="card-title">Best protein supplements</h5>
@@ -76,16 +87,35 @@
                               <a routerLink="/best_protein_supplements" class="btn btn-primary">Take me there!!</a>
                             </div>
                           </div>
-                          <div class="card h-50" style="width: 18rem;" >
+
+                          <div class="card h-50" style="width: 18rem;margin: 2.5rem;" >
                             <img class="card-img-top img-fluid" src="../../assets/img/body.jpg.jpg" alt="Card image cap">
                             <div class="card-body">
                               <h5 style="color: black;" class="card-title">Bodybuilding:A Beginners Guide</h5>
-                              <p style="color: white;" class="card-text">Everything you need to get started with a healthy life!1</p>
+                              <p  style="color: white;" class="card-text">Everything you need to get started with a healthy life!</p>
                               <a routerLink="/bodybuilding_beginners_guide" class="btn btn-primary">Take me there!!</a>
                             </div>
                           </div>
+                          
                     </div>
                 </div>
+                <div class="footer">
+                  <footer class="footer-section">
+                  <ul class="footer-list">
+                      <li class="footer-list-item"><a><i class="fa fa-twitter-square"></i></a></li>
+                      <li class="footer-list-item"><a><i class="fa fa-facebook-official"></i></a></li>
+                      <li class="footer-list-item"><a><i class="fa fa-instagram"></i></a></li>
+                      <li class="footer-list-item"><a><i class="fa fa-linkedin-square"></i></a></li>
+                  </ul>   
+                  <ul class="footer-list-2">
+                      <li class="footer-list-item-2"><a>ABOUT</a></li>
+                      <li class="footer-list-item-2"><a>PRESS</a></li>
+                      <li class="footer-list-item-2"><a>CONTACT</a></li>
+                      <li class="footer-list-item-2"><a>SUBSCRIBE</a></li>
+                  </ul>
+                  <p class="copyright-trademark">© 2020 FASTFIT21 , LLC | LEGAL</p>
+                  </footer>
+                  </div>
             </div>
         </div>
 
