@@ -103,6 +103,10 @@ Media queries */
         display: none;
     }
 
+    .presentation-title {
+        font-size: 4.5em;
+    }
+
     .ON {
         height:4rem;
         font-size: 12px;

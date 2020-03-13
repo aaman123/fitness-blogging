@@ -101,6 +101,10 @@ img {
         height: 300px;
     }
 
+    .presentation-title {
+        font-size: 4.5em;
+    }
+
     }
 
     @media only screen and (max-width: 768px) {
