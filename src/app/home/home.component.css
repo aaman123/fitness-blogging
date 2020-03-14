@@ -120,6 +120,10 @@
         font-size: 4.5em;
     }
 
+    .card {
+        margin: 3rem;
+    }
+
     .footer-image {
         max-width: 100%;
         height: 300px;
