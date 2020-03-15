@@ -17,9 +17,13 @@
     }
 } */
 
+.row-color {
+    background-image: linear-gradient(#bdc3c7,#2c3e50);
+    border-radius: 20px;
+}   
+
 .card-col-flex {
     display: flex;
-    background-image: linear-gradient(#bdc3c7,#2c3e50);
     border-radius: 20px;
 }
 

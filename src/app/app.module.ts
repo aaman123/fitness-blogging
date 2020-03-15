@@ -8,6 +8,7 @@ import { PostsComponent } from './posts/posts.component';
 import { Post1BeginnersComponent } from './posts/post1-beginners/post1-beginners.component';
 import { Post2SupplementsForBeginnersComponent } from './posts/post2-supplements-for-beginners/post2-supplements-for-beginners.component';
 import { Post3ExerciseBeginnersComponent } from './posts/post3-exercise-beginners/post3-exercise-beginners.component';
+import { Post4CoronainfectionsComponent } from './posts/post4-coronainfections/post4-coronainfections.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
 import { FooterComponent } from './layouts/footer/footer.component';
 import { SidebarComponent } from './layouts/sidebar/sidebar.component';
@@ -25,6 +26,7 @@ import { NgtUniversalModule } from '@ng-toolkit/universal';
     Post1BeginnersComponent,
     Post2SupplementsForBeginnersComponent,
     Post3ExerciseBeginnersComponent,
+    Post4CoronainfectionsComponent,
     NewsletterComponent,
     FooterComponent,
     SidebarComponent
