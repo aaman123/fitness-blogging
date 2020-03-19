@@ -51,7 +51,32 @@ img {
     box-shadow:  10px 8px 10px #888888;;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 370px) and (max-width: 390px) {
+    img {
+        max-width: 100%;
+        height: 150px;
+    }
+
+    .corona-1 {
+        margin: 0;
+    }
+    
+    
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    .presentation-title {
+        font-size: 4.5em;
+    }
+}
+
+@media only screen and (min-width: 391px) and (max-width: 480px) {
     img {
         max-width: 100%;
         height: 300px;
