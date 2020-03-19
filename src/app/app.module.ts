@@ -13,6 +13,7 @@ import { Newsletter2Component } from '../app/layouts/newsletter2/newsletter2.com
 import { NewsletterComponent } from './newsletter/newsletter.component';
 import { FooterComponent } from './layouts/footer/footer.component';
 import { SidebarComponent } from './layouts/sidebar/sidebar.component';
+import { AboutComponent } from './layouts/about/about.component';
 import { CommonModule } from '@angular/common';
 import { TransferHttpCacheModule } from '@nguniversal/common';
 import { HttpClientModule } from '@angular/common/http';
@@ -31,7 +32,8 @@ import { NgtUniversalModule } from '@ng-toolkit/universal';
     NewsletterComponent,
     Newsletter2Component,
     FooterComponent,
-    SidebarComponent
+    SidebarComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

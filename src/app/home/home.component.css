@@ -96,7 +96,7 @@
 }
 
 .footer-list-item-2 {
-    flex-basis: 10%;
+    flex-basis: 12%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
 }
@@ -105,7 +105,7 @@
 
 .copyright-trademark {
     margin-top: 4%;
-    margin-left: 40%;
+    margin-left: 37%;
     color: thistle;
 }
 

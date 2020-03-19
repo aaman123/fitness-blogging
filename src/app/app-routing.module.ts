@@ -7,6 +7,7 @@ import { NewsletterComponent } from './newsletter/newsletter.component';
 import { Newsletter2Component } from './layouts/newsletter2/newsletter2.component';
 import { Post3ExerciseBeginnersComponent } from './posts/post3-exercise-beginners/post3-exercise-beginners.component';
 import { Post4CoronainfectionsComponent } from './posts/post4-coronainfections/post4-coronainfections.component'; 
+import { AboutComponent } from './layouts/about/about.component';
 
 const routes: Routes = [
   { path: '' , component: HomeComponent},
@@ -15,7 +16,8 @@ const routes: Routes = [
   { path:'beginners_exercise' , component: Post3ExerciseBeginnersComponent},
   { path:'immunity_infections' , component:Post4CoronainfectionsComponent},
   { path: 'newsletter' , component:NewsletterComponent},
-  { path: 'newsletter2' , component: Newsletter2Component}
+  { path: 'newsletter2' , component: Newsletter2Component},
+  { path: 'about' , component: AboutComponent},
 ];
 
 @NgModule({
