@@ -169,6 +169,11 @@
     .footer-intro {
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+
+    .intro-heading {
+        margin-left: 3rem;
     }
 
     .footer-image {
@@ -222,3 +227,18 @@
 
     }
 
+    /* Media Query for Tablets Ipads portrait mode */ 
+@media (min-width: 768px) and (max-width: 1023px){ 
+    .card-col-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 25rem;
+    }
+
+    .copyright-trademark {
+        margin-left: 30%;
+    }
+}
