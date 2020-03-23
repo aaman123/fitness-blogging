@@ -14,6 +14,7 @@ import { NewsletterComponent } from './newsletter/newsletter.component';
 import { FooterComponent } from './layouts/footer/footer.component';
 import { SidebarComponent } from './layouts/sidebar/sidebar.component';
 import { AboutComponent } from './layouts/about/about.component';
+import { FitonlinetrainingComponent } from './fitonlinetraining/fitonlinetraining.component';
 import { CommonModule } from '@angular/common';
 import { TransferHttpCacheModule } from '@nguniversal/common';
 import { HttpClientModule } from '@angular/common/http';
@@ -34,6 +35,7 @@ import { NgtUniversalModule } from '@ng-toolkit/universal';
     FooterComponent,
     SidebarComponent,
     AboutComponent,
+    FitonlinetrainingComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

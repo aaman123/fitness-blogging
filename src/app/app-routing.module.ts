@@ -8,6 +8,8 @@ import { Newsletter2Component } from './layouts/newsletter2/newsletter2.componen
 import { Post3ExerciseBeginnersComponent } from './posts/post3-exercise-beginners/post3-exercise-beginners.component';
 import { Post4CoronainfectionsComponent } from './posts/post4-coronainfections/post4-coronainfections.component'; 
 import { AboutComponent } from './layouts/about/about.component';
+import { FitonlinetrainingComponent } from './fitonlinetraining/fitonlinetraining.component';
+
 
 const routes: Routes = [
   { path: '' , component: HomeComponent},
@@ -18,6 +20,7 @@ const routes: Routes = [
   { path: 'newsletter' , component:NewsletterComponent},
   { path: 'newsletter2' , component: Newsletter2Component},
   { path: 'about' , component: AboutComponent},
+  { path: 'train_with_them' , component: FitonlinetrainingComponent},
 ];
 
 @NgModule({
