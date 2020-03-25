@@ -2,7 +2,22 @@
 
 
 <url>
+    <loc>http://www.bestfitnessplans.com/</loc>
+    <changefreq>weekly</changefreq>
+</url>
+
+<url>
     <loc>https://www.fastfit21.com/</loc>
+    <changefreq>weekly</changefreq>
+</url>
+
+<url>
+    <loc>https://www.fastfit21.com/about</loc>
+    <changefreq>weekly</changefreq>
+</url>
+
+<url>
+    <loc>https://www.fastfit21.com/balanced_diet</loc>
     <changefreq>weekly</changefreq>
 </url>
 
@@ -23,6 +38,16 @@
 
 <url>
     <loc>https://www.fastfit21.com/immunity_infections</loc>
+    <changefreq>weekly</changefreq>
+</url>
+
+<url>
+    <loc>https://www.fastfit21.com/newsletter</loc>
+    <changefreq>weekly</changefreq>
+</url>
+
+<url>
+    <loc>https://www.fastfit21.com/train_with_them</loc>
     <changefreq>weekly</changefreq>
 </url>
 
