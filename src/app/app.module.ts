@@ -9,6 +9,7 @@ import { Post1BeginnersComponent } from './posts/post1-beginners/post1-beginners
 import { Post2SupplementsForBeginnersComponent } from './posts/post2-supplements-for-beginners/post2-supplements-for-beginners.component';
 import { Post3ExerciseBeginnersComponent } from './posts/post3-exercise-beginners/post3-exercise-beginners.component';
 import { Post4CoronainfectionsComponent } from './posts/post4-coronainfections/post4-coronainfections.component';
+import { Post5BalancedDietComponent } from './posts/post5-balanced-diet/post5-balanced-diet.component';
 import { Newsletter2Component } from '../app/layouts/newsletter2/newsletter2.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
 import { FooterComponent } from './layouts/footer/footer.component';
@@ -30,6 +31,7 @@ import { NgtUniversalModule } from '@ng-toolkit/universal';
     Post2SupplementsForBeginnersComponent,
     Post3ExerciseBeginnersComponent,
     Post4CoronainfectionsComponent,
+    Post5BalancedDietComponent,
     NewsletterComponent,
     Newsletter2Component,
     FooterComponent,

@@ -9,14 +9,16 @@ import { Post3ExerciseBeginnersComponent } from './posts/post3-exercise-beginner
 import { Post4CoronainfectionsComponent } from './posts/post4-coronainfections/post4-coronainfections.component'; 
 import { AboutComponent } from './layouts/about/about.component';
 import { FitonlinetrainingComponent } from './fitonlinetraining/fitonlinetraining.component';
+import { Post5BalancedDietComponent } from './posts/post5-balanced-diet/post5-balanced-diet.component';
 
 
 const routes: Routes = [
   { path: '' , component: HomeComponent},
   { path: 'bodybuilding_beginners_guide' , component: Post1BeginnersComponent},
   { path: 'best_protein_supplements' , component: Post2SupplementsForBeginnersComponent},
-  { path:'beginners_exercise' , component: Post3ExerciseBeginnersComponent},
-  { path:'immunity_infections' , component:Post4CoronainfectionsComponent},
+  { path: 'beginners_exercise' , component: Post3ExerciseBeginnersComponent},
+  { path: 'immunity_infections' , component:Post4CoronainfectionsComponent},
+  { path: 'balanced_diet', component: Post5BalancedDietComponent},
   { path: 'newsletter' , component:NewsletterComponent},
   { path: 'newsletter2' , component: Newsletter2Component},
   { path: 'about' , component: AboutComponent},
