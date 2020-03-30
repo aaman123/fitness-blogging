@@ -531,6 +531,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     font-weight: 300;
     position: relative;
     text-align: center;
+    letter-spacing: 2px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
     margin-top: 180px;
     z-index: 3;
@@ -541,8 +542,15 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     font-size: 82px;
     font: bolder;
     color: black;
+    transition: transform 1s ease-out;
     
 }
+
+#site-name span {
+    display: inline-block;
+    transition: opacity .5 ease-out, transform .5s ease-out;
+}
+
 .main .content{
     position: relative;
     z-index: 4;

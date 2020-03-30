@@ -1,3 +1,22 @@
+.loader1{
+    overflow: hidden !important;
+}
+#loading-area {
+    width: 100%;
+    height: 100%;
+    background-color: #f6fcff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    z-index: 999999;
+    background-image: url('../../assets/img/loading.gif');
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: center;
+}
+
+
 .navbar-list {
     display: flex;
 }
@@ -11,6 +30,66 @@
     text-decoration: none;
     text-emphasis: none;
     color: black;
+}
+
+.nav-link:hover {
+    text-decoration-color: black;
+    text-decoration: underline;
+}
+
+.testimonial-section {
+    background-color: blanchedalmond;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.testimonial-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: burlywood;
+    padding: 1rem;
+}
+
+.testimonial-item-3 {
+    align-self: center;
+    margin: 4rem;
+}
+
+.testimonial-item-4 {
+    margin: 1rem;
+}
+
+/*hover on images*/
+.hover-effect::before,
+.hover-effect::after {
+    content: "";
+    background-color: #fff;
+    height: 0;
+    width: 0;
+    z-index: 1;
+    position: absolute;
+    -webkit-transition-duration: 1.3s;
+    -o-transition-duration: 1.3s;
+    transition-duration: 1.3s;
+}
+
+.hover-effect::before {
+    right: 0;
+    opacity: 1;
+    top: 0;
+}
+.hover-effect::after {
+    bottom: 0;
+    opacity: .7;
+    left: 0;
+}
+.hover-effect:hover::after, .hover-effect:hover::before {
+    height: 100%;
+    opacity: 0;
+    width: 100%;
 }
 
 
@@ -40,7 +119,7 @@
 
 .logo {
     max-width: 100%;
-    height: 100px;
+    height: 80px;
     border-radius: 50%;
 }
 
@@ -269,6 +348,16 @@
         flex-direction: column;
     }
 
+    .testimonial-section {
+        flex-direction: column;
+    }
+
+    
+.nav-link:hover {
+    text-decoration: line-through;
+    text-decoration-color: black;
+}
+
     .col-md-12 {
         margin: 0;
     }
@@ -331,6 +420,15 @@
         flex-direction: column;
     }
 
+    .testimonial-section {
+        flex-direction: column;
+    }
+
+    
+.nav-link:hover {
+    text-decoration: line-through;
+    text-decoration-color: black;
+}
     
     .heading-intro-fitonline {
         font-size: 30px;
@@ -387,10 +485,20 @@
         flex-direction: column;
     }
 
+    
+.nav-link:hover {
+    text-decoration: line-through;
+    text-decoration-color: black;
+}
+
 
     .shapes-image {
         max-width: 100%;
         height: 300px;
+    }
+
+    .testimonial-section {
+        flex-direction: column;
     }
 
     .carousel-header-styling {

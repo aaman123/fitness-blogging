@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgwWowService } from 'ngx-wow';
 
 @Component({
   selector: 'app-fitonlinetraining',
@@ -7,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FitonlinetrainingComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit() {
+  constructor(private wowService: NgwWowService) { 
+    this.wowService.init();
   }
 
+  ngOnInit() {  }
 }
