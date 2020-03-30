@@ -34,8 +34,7 @@
             ],
             "scripts": [
               "src/assets/js/paper-kit.js",
-              "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "node_modules/wow.js/dist/wow.js"
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]
           },
           "configurations": {
