@@ -12,5 +12,5 @@ export class FitonlinetrainingComponent implements OnInit {
     this.wowService.init();
   }
 
-  ngOnInit() {  }
+  ngOnInit() {}
 }

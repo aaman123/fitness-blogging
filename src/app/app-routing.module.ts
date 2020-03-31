@@ -10,6 +10,7 @@ import { Post4CoronainfectionsComponent } from './posts/post4-coronainfections/p
 import { AboutComponent } from './layouts/about/about.component';
 import { FitonlinetrainingComponent } from './fitonlinetraining/fitonlinetraining.component';
 import { Post5BalancedDietComponent } from './posts/post5-balanced-diet/post5-balanced-diet.component';
+import { Post6BroscienceBustedComponent } from './posts/post6-broscience-busted/post6-broscience-busted.component';
 
 
 const routes: Routes = [
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'beginners_exercise' , component: Post3ExerciseBeginnersComponent},
   { path: 'immunity_infections' , component:Post4CoronainfectionsComponent},
   { path: 'balanced_diet', component: Post5BalancedDietComponent},
+  { path: 'broscience_busted' , component: Post6BroscienceBustedComponent},
   { path: 'newsletter' , component:NewsletterComponent},
   { path: 'newsletter2' , component: Newsletter2Component},
   { path: 'about' , component: AboutComponent},

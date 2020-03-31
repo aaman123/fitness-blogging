@@ -10,6 +10,7 @@ import { Post2SupplementsForBeginnersComponent } from './posts/post2-supplements
 import { Post3ExerciseBeginnersComponent } from './posts/post3-exercise-beginners/post3-exercise-beginners.component';
 import { Post4CoronainfectionsComponent } from './posts/post4-coronainfections/post4-coronainfections.component';
 import { Post5BalancedDietComponent } from './posts/post5-balanced-diet/post5-balanced-diet.component';
+import { Post6BroscienceBustedComponent } from './posts/post6-broscience-busted/post6-broscience-busted.component';
 import { Newsletter2Component } from '../app/layouts/newsletter2/newsletter2.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
 import { FooterComponent } from './layouts/footer/footer.component';
@@ -33,6 +34,7 @@ import { NgwWowModule } from 'ngx-wow';
     Post3ExerciseBeginnersComponent,
     Post4CoronainfectionsComponent,
     Post5BalancedDietComponent,
+    Post6BroscienceBustedComponent,
     NewsletterComponent,
     Newsletter2Component,
     FooterComponent,

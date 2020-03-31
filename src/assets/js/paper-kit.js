@@ -1,3 +1,20 @@
+ 
+$(window).on("load", function () {
+
+  "use strict";
+  
+  /* ===================================
+          Loading Timeout
+   ====================================== */
+  
+  setTimeout(function(){
+      $('.loader1').fadeOut();
+  
+     
+  }, 3000);
+  
+  });
+
 /*!
 
  =========================================================
@@ -50,16 +67,6 @@ var navbar_initialized,
       12, // 9 1
     ]
 
-  //   if ($(".wow").length) {
-  //     var wow = new WOW({
-  //        boxClass: 'wow',
-  //        animateClass: 'animated',
-  //        offset: 0,
-  //        mobile: false,
-  //        live: true
-  //     });
-  //     new WOW().init();
-  //  }
   
     $title.html('');
     $.each(title.replace(/[\t\s]/g,'').split(''),function(i,c){

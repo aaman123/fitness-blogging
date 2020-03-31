@@ -19,46 +19,17 @@ declare var gtag;
 
 export class AppComponent {
   title = 'ObsessedWithFitness';
-  showOverlay = false;
-
-  constructor(private router:Router) {
-    this.router.events.subscribe((event: Event) => {
-      switch(true) {
-        case event instanceof NavigationStart: {
-          this.showOverlay = true;
-          console.log(event instanceof NavigationStart);
-          break;
-        }
-
-
-        case event instanceof NavigationEnd:
-        case event instanceof NavigationError:
-        case event instanceof NavigationCancel: {
-          this.showOverlay = false;
-          console.log(event instanceof NavigationEnd);
-          break;
-        }
-
-        default: {
-          break;
-        }
-      }
-    })
-    
-
   
-  }
+  constructor(private router:Router) {
+ 
+     const navEndEvents = router.events.pipe(
+      filter(event => event instanceof NavigationEnd)
+    )
 
-  // navstartsubscribe(event: NavigationStart): void {
-  //   if (event instanceof NavigationStart){
-  //     this.showOverlay = true;
-  //   }
-  // }
-
-  // navendsubscribe(event: NavigationEnd): void {
-  //   if (event instanceof NavigationEnd){
-  //     this.showOverlay = false;
-  //   }
-  // }
-
+    navEndEvents.subscribe( (event: NavigationEnd)=> {
+      gtag('config', 'UA-160064411-1' ,{
+      'page_path': event.urlAfterRedirects
+    });
+ }) 
+}
 }

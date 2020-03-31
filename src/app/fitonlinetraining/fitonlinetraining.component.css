@@ -17,6 +17,7 @@
 }
 
 
+
 .navbar-list {
     display: flex;
 }
@@ -44,6 +45,34 @@
     flex-direction: row;
 }
 
+.figure:before {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255,255,255,0)), to(rgba(255,255,255,.3)));
+    background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+    -webkit-transform: skewX(-25deg);
+    -ms-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+}
+
+@-webkit-keyframes shine {
+    100% {
+        left: 100%;
+    }
+}
+@keyframes shine {
+    100% {
+        left: 100%;
+    }
+}
+
 .testimonial-1 {
     display: flex;
     flex-direction: column;
@@ -63,6 +92,11 @@
 }
 
 /*hover on images*/
+.figure:hover::before {
+    -webkit-animation: shine 1s;
+    animation: shine 1s;
+}
+
 .hover-effect::before,
 .hover-effect::after {
     content: "";
@@ -200,6 +234,105 @@
 
 .col-features {
     display: flex;
+}
+
+.vision-fitonline-1 {
+    background: #f6f6f6;
+    padding: 1rem;
+    -webkit-transition: 1s ease;
+    -o-transition: 1s ease;
+    transition: 1s ease;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.quote-box {
+    border: 1px solid transparent;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    background: #33c9dd;
+    padding: 15px 10px 10px 14px;
+    position: absolute;
+    bottom: 83.5%;
+    left: 44.5%
+}
+
+.quote {
+    font-size: 30px;
+    color: white
+}
+
+.vision-fitonline-1:hover {
+    background-color: #33c9dd;
+}
+
+.vision-fitonline-1:hover .quote-box {
+    background: white;
+}
+
+.vision-fitonline-1:hover .quote {
+    color: #33c9dd;
+}
+
+.vision-fitonline-1:hover  .vfo1-para{
+    color: white;
+}
+
+.vision-fitonline-2 {
+    background: #f6f6f6;
+    padding: 1rem;
+    -webkit-transition: 1s ease;
+    -o-transition: 1s ease;
+    transition: 1s ease;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.quote-box-1 {
+    border: 1px solid transparent;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    background: #772f1a;
+    padding: 15px 10px 10px 14px;
+    position: absolute;
+    bottom: 83.5%;
+    left: 44.5%
+}
+
+.quote-1 {
+    color: white;
+    font-size: 30px;
+}
+
+
+.vision-fitonline-2:hover {
+    background-color: #772f1a;
+    background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+}
+
+.vision-fitonline-2:hover .quote-box-1 {
+    background: white;
+}
+
+
+.vision-fitonline-2:hover .quote-1 {
+    color: #772f1a;
+}
+
+
+
+.vision-fitonline-2:hover  .vfo2-para{
+    color: white;
+}
+
+
+
+.vision-fitonline-3{
+    background: #f6f6f6;
+    padding: 1rem;
 }
 
 .shapes-image  {

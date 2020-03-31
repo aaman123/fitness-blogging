@@ -1,18 +1,5 @@
-<div class="loader1"  *ngIf='showOverlay'>
+<div class="loader1">
     <div id="loading-area"></div>
   </div>
 <router-outlet></router-outlet>
 
-
-<!-- 
-const navEndEvents = router.events.pipe(
-    filter(event => event instanceof NavigationEnd)
-  )
-
-  navEndEvents.subscribe( (event: NavigationEnd)=> {
-    gtag('config', 'UA-160064411-1' ,{
-      'page_path': event.urlAfterRedirects
-    });
-
-    this.showOverlay = false;
- }) -->
