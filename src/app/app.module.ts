@@ -19,7 +19,6 @@ import { SidebarComponent } from './layouts/sidebar/sidebar.component';
 import { AboutComponent } from './layouts/about/about.component';
 import { FitonlinetrainingComponent } from './fitonlinetraining/fitonlinetraining.component';
 
-import { AdminComponent } from './fitonlinetraining/layouts/admin/admin.component';
 import { FitSidebarComponent } from './fitonlinetraining/layouts/fit-sidebar/fit-sidebar.component';
 import { CommonModule } from '@angular/common';
 import { TransferHttpCacheModule } from '@nguniversal/common';
@@ -49,7 +48,6 @@ import { WorkoutsComponent } from './fitonlinetraining/workouts/workouts.compone
     FitonlinetrainingComponent,
     TrainersComponent,
     WorkoutsComponent,
-    AdminComponent,
     FitSidebarComponent
   ],
   imports: [
