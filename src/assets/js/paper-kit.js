@@ -12,8 +12,42 @@ $(window).on("load", function () {
   
      
   }, 3000);
-  
+
+  $('.gallery').isotope({
+    // options
+    itemSelector: '.items',
+    layoutMode: 'fitRows'
+    
+ });
+
+ var $gallery = $('.gallery').isotope({
+    // options
+ });
+
+ // filter items on button click
+ $('.filtering').on('click', 'span', function () {
+
+    var filterValue = $(this).attr('data-filter');
+
+    $gallery.isotope({filter: filterValue});
+
+ });
+
+ $('.filtering').on('click', 'span', function () {
+
+    $(this).addClass('active').siblings().removeClass('active');
+
+ });
+
+ setTimeout(function (){
+    $('.filtering .active').click();
+ }, 1500);
+
   });
+
+  
+
+  // init Isotope
 
 /*!
 
@@ -67,23 +101,34 @@ var navbar_initialized,
       12, // 9 1
     ]
 
+  //   if(!window.location.hash) {
+  //     window.location = window.location + '#loaded';
+  //     window.location.reload();
+  // }else{
+  //   //Init stuff here
+  // }
+
+
+    $(document).ready(function() {
+      
+
+      $('.da-thumbs > li ').each( function() { $(this).hoverdir(); } );
+
+   });
+
+   // external js: isotope.pkgd.js
+
+   
   
-    $title.html('');
-    $.each(title.replace(/[\t\s]/g,'').split(''),function(i,c){
-      var $s = $('<span class="c'+(i+1)+'">'+c+'</span>');
-      var d = typo_delay[i]
-      $s.css(Modernizr.prefixedCSS('transition-delay'), (d/30)*1000+'ms')
-      $title.append($s);
-    });
+
   
+
+
   
-    $images.each(function(){
-      var $img = $(this).find('img');
-      $(this).css({
-        'background-image' : 'url('+$img.attr('src')+')'
-      });
-      $img.css('display','none');
-    });
+
+
+  
+    
     
 
     function start(){
@@ -162,6 +207,8 @@ var navbar_initialized,
   
   
   })(jQuery)
+
+
 
 
 

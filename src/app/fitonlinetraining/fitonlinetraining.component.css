@@ -476,6 +476,67 @@
     object-fit: contain;
 }
 
+
+
+.footer-company {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer-downloads {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer-list-item {
+    margin: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.footer-resources {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('../../assets/img/runningpost4.jpg');
+  
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center -111.375px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/* 
+  .bg-img1{
+      position: relative;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+  } */
+
+  .bg-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+
+  .opacity-5 {
+      opacity: 5;
+  }
+  
+
 @media (max-width:375px) {
     .col-features {
         flex-direction: column;

@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -17,11 +18,16 @@ import { FooterComponent } from './layouts/footer/footer.component';
 import { SidebarComponent } from './layouts/sidebar/sidebar.component';
 import { AboutComponent } from './layouts/about/about.component';
 import { FitonlinetrainingComponent } from './fitonlinetraining/fitonlinetraining.component';
+
+import { AdminComponent } from './fitonlinetraining/layouts/admin/admin.component';
+import { FitSidebarComponent } from './fitonlinetraining/layouts/fit-sidebar/fit-sidebar.component';
 import { CommonModule } from '@angular/common';
 import { TransferHttpCacheModule } from '@nguniversal/common';
 import { HttpClientModule } from '@angular/common/http';
 import { NgtUniversalModule } from '@ng-toolkit/universal';
 import { NgwWowModule } from 'ngx-wow';
+import { TrainersComponent } from './fitonlinetraining/trainers/trainers.component';
+import { WorkoutsComponent } from './fitonlinetraining/workouts/workouts.component';
 
 
 @NgModule({
@@ -41,6 +47,10 @@ import { NgwWowModule } from 'ngx-wow';
     SidebarComponent,
     AboutComponent,
     FitonlinetrainingComponent,
+    TrainersComponent,
+    WorkoutsComponent,
+    AdminComponent,
+    FitSidebarComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
@@ -50,6 +60,7 @@ import { NgwWowModule } from 'ngx-wow';
     HttpClientModule,
     NgtUniversalModule,
     NgwWowModule,
+    BrowserAnimationsModule,
 
   ],
   providers: [],

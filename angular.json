@@ -30,12 +30,15 @@
               "src/assets/css/paper-kit.css",
               "src/assets/css/coming-sssoon.css",
               "node_modules/animate.css/animate.css",
+              "src/assets/css/jquery.fancybox.css",
               "src/styles.css"
             ],
             "scripts": [
               "src/assets/js/paper-kit.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "node_modules/wowjs/dist/wow.js"
+              "node_modules/wowjs/dist/wow.js",
+              "src/assets/js/jquery.hoverdir.js",
+              "src/assets/js/modernizr.custom.97074.js"
             ]
           },
           "configurations": {
