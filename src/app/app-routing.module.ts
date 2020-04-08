@@ -13,6 +13,8 @@ import { AboutComponent } from './layouts/about/about.component';
 import { FitonlinetrainingComponent } from './fitonlinetraining/fitonlinetraining.component';
 import { TrainersComponent } from './fitonlinetraining/trainers/trainers.component';
 import { WorkoutsComponent } from './fitonlinetraining/workouts/workouts.component';
+import { CalorieTrackerComponent } from './fitonlinetraining/calorie-tracker/calorie-tracker.component';
+import { Post7SteroidsComponent } from './posts/post7-steroids/post7-steroids.component';
 
 
 
@@ -24,12 +26,14 @@ const routes: Routes = [
   { path: 'immunity_infections' , component:Post4CoronainfectionsComponent , data: {animation: 'post4'},},
   { path: 'balanced_diet', component: Post5BalancedDietComponent , data: {animation: 'post5'},},
   { path: 'broscience_busted' , component: Post6BroscienceBustedComponent, data: {animation: 'post6'},},
+  { path: 'steroids', component: Post7SteroidsComponent, data: {animation: 'post5'}},
   { path: 'newsletter' , component:NewsletterComponent},
   { path: 'newsletter2' , component: Newsletter2Component},
   { path: 'about' , component: AboutComponent},
   { path: 'train_with_them' , component: FitonlinetrainingComponent},
   { path: 'trainers', component: TrainersComponent, data: {animation: 'trainers'}},
   { path: 'workouts', component: WorkoutsComponent, data: {animation: 'workouts'}},
+  { path: 'calorie_tracker', component: CalorieTrackerComponent}
    
 ];
 

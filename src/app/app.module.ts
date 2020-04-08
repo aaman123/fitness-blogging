@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -12,6 +13,8 @@ import { Post3ExerciseBeginnersComponent } from './posts/post3-exercise-beginner
 import { Post4CoronainfectionsComponent } from './posts/post4-coronainfections/post4-coronainfections.component';
 import { Post5BalancedDietComponent } from './posts/post5-balanced-diet/post5-balanced-diet.component';
 import { Post6BroscienceBustedComponent } from './posts/post6-broscience-busted/post6-broscience-busted.component';
+import { Post7SteroidsComponent } from './posts/post7-steroids/post7-steroids.component';
+
 import { Newsletter2Component } from '../app/layouts/newsletter2/newsletter2.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
 import { FooterComponent } from './layouts/footer/footer.component';
@@ -27,6 +30,8 @@ import { NgtUniversalModule } from '@ng-toolkit/universal';
 import { NgwWowModule } from 'ngx-wow';
 import { TrainersComponent } from './fitonlinetraining/trainers/trainers.component';
 import { WorkoutsComponent } from './fitonlinetraining/workouts/workouts.component';
+import { CalorieTrackerComponent } from './fitonlinetraining/calorie-tracker/calorie-tracker.component';
+
 
 
 @NgModule({
@@ -40,6 +45,7 @@ import { WorkoutsComponent } from './fitonlinetraining/workouts/workouts.compone
     Post4CoronainfectionsComponent,
     Post5BalancedDietComponent,
     Post6BroscienceBustedComponent,
+    Post7SteroidsComponent,
     NewsletterComponent,
     Newsletter2Component,
     FooterComponent,
@@ -48,6 +54,7 @@ import { WorkoutsComponent } from './fitonlinetraining/workouts/workouts.compone
     FitonlinetrainingComponent,
     TrainersComponent,
     WorkoutsComponent,
+    CalorieTrackerComponent,
     FitSidebarComponent
   ],
   imports: [
@@ -58,6 +65,7 @@ import { WorkoutsComponent } from './fitonlinetraining/workouts/workouts.compone
     HttpClientModule,
     NgtUniversalModule,
     NgwWowModule,
+    FormsModule,
     BrowserAnimationsModule,
 
   ],
