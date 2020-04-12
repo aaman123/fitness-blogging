@@ -1,4 +1,10 @@
+.main {
+    height: 100%; width: 100%; background-color: whitesmoke;
+}
 
+.container {
+    padding-top:10%;padding-bottom:30%;background-color:white;height: 100%;
+}
 
 .navbar-list {
     display: flex;
@@ -161,6 +167,10 @@ h3 {
         display: none;
         background: rgba(0, 181, 204, 0.81);
         
+    }
+
+    .container {
+        padding-top: 35%;
     }
 
     .center-column {

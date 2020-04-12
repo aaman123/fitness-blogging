@@ -20,6 +20,7 @@ $(window).on("load", function () {
     
  });
 
+
  var $gallery = $('.gallery').isotope({
     // options
  });

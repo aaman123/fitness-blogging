@@ -31,6 +31,8 @@ import { NgwWowModule } from 'ngx-wow';
 import { TrainersComponent } from './fitonlinetraining/trainers/trainers.component';
 import { WorkoutsComponent } from './fitonlinetraining/workouts/workouts.component';
 import { CalorieTrackerComponent } from './fitonlinetraining/calorie-tracker/calorie-tracker.component';
+import { RecipeSearchComponent } from './fitonlinetraining/calorie-tracker/recipe-search/recipe-search.component';
+
 
 
 
@@ -55,6 +57,7 @@ import { CalorieTrackerComponent } from './fitonlinetraining/calorie-tracker/cal
     TrainersComponent,
     WorkoutsComponent,
     CalorieTrackerComponent,
+    RecipeSearchComponent,
     FitSidebarComponent
   ],
   imports: [

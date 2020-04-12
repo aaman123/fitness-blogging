@@ -4600,7 +4600,7 @@ License - nucleoapp.com/license/
   color: #FFFFFF;
 }
 
-.navbar.navbar-transparent .navbar-toggler .navbar-toggler-bar {
+.navbar.navbar-transparent .navbar-toggler  {
   background: #FFFFFF !important;
 }
 

@@ -69,17 +69,17 @@
 
   .link-calorie {
     
-    margin: 0px 10px; 
-    font-size: 20px;
-    color: #0d1619; 
-    cursor: pointer;
-    overflow: hidden;
+        margin: 0px 10px; 
+        font-size: 20px;
+        color: #0d1619; 
+        cursor: pointer;
+        overflow: hidden;
+    
+  }
 
-}
-
-.link-calorie:hover {
-  color: cadetblue;
-}
+  .link-calorie:hover {
+      color: cadetblue;
+  }
   
   @media (max-width:768px) {
       .container {

@@ -15,6 +15,7 @@ import { TrainersComponent } from './fitonlinetraining/trainers/trainers.compone
 import { WorkoutsComponent } from './fitonlinetraining/workouts/workouts.component';
 import { CalorieTrackerComponent } from './fitonlinetraining/calorie-tracker/calorie-tracker.component';
 import { Post7SteroidsComponent } from './posts/post7-steroids/post7-steroids.component';
+import { RecipeSearchComponent } from './fitonlinetraining/calorie-tracker/recipe-search/recipe-search.component';
 
 
 
@@ -33,7 +34,8 @@ const routes: Routes = [
   { path: 'train_with_them' , component: FitonlinetrainingComponent},
   { path: 'trainers', component: TrainersComponent, data: {animation: 'trainers'}},
   { path: 'workouts', component: WorkoutsComponent, data: {animation: 'workouts'}},
-  { path: 'calorie_tracker', component: CalorieTrackerComponent}
+  { path: 'calorie_tracker', component: CalorieTrackerComponent},
+  { path: 'recipe_search', component: RecipeSearchComponent}
    
 ];
 
