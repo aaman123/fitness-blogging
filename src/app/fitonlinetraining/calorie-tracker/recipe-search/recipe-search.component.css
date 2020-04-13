@@ -2,6 +2,31 @@
     height: 100%; width: 100%; background-color: whitesmoke;
 }
 
+.navbar-list {
+  display: flex;
+}
+
+.navbar-item {
+  display: flex;
+  margin:1rem 1rem 0 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  text-emphasis: none;
+  color: black;
+}
+
+
+
+
+.logo {
+  max-width: 100%;
+  height: 70px;
+  border-radius: 50%;
+}
+
+
 .container {
     padding-top:10%;padding-bottom:30%;background-color:white;height: 100%;
 }
@@ -84,6 +109,9 @@
   @media (max-width:768px) {
       .container {
         padding-top: 35%;
+        padding-bottom: 40%;
       }
+
+      
   }
   
