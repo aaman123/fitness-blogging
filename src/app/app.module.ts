@@ -32,6 +32,7 @@ import { TrainersComponent } from './fitonlinetraining/trainers/trainers.compone
 import { WorkoutsComponent } from './fitonlinetraining/workouts/workouts.component';
 import { CalorieTrackerComponent } from './fitonlinetraining/calorie-tracker/calorie-tracker.component';
 import { RecipeSearchComponent } from './fitonlinetraining/calorie-tracker/recipe-search/recipe-search.component';
+import { Post8FitCollegeStudentComponent } from './posts/post8-fit-college-student/post8-fit-college-student.component';
 
 
 
@@ -48,6 +49,7 @@ import { RecipeSearchComponent } from './fitonlinetraining/calorie-tracker/recip
     Post5BalancedDietComponent,
     Post6BroscienceBustedComponent,
     Post7SteroidsComponent,
+    Post8FitCollegeStudentComponent,
     NewsletterComponent,
     Newsletter2Component,
     FooterComponent,

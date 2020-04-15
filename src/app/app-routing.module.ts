@@ -9,12 +9,13 @@ import { Post3ExerciseBeginnersComponent } from './posts/post3-exercise-beginner
 import { Post4CoronainfectionsComponent } from './posts/post4-coronainfections/post4-coronainfections.component'; 
 import { Post5BalancedDietComponent } from './posts/post5-balanced-diet/post5-balanced-diet.component';
 import { Post6BroscienceBustedComponent } from './posts/post6-broscience-busted/post6-broscience-busted.component';
+import { Post7SteroidsComponent } from './posts/post7-steroids/post7-steroids.component';
+import { Post8FitCollegeStudentComponent } from './posts/post8-fit-college-student/post8-fit-college-student.component';
 import { AboutComponent } from './layouts/about/about.component';
 import { FitonlinetrainingComponent } from './fitonlinetraining/fitonlinetraining.component';
 import { TrainersComponent } from './fitonlinetraining/trainers/trainers.component';
 import { WorkoutsComponent } from './fitonlinetraining/workouts/workouts.component';
 import { CalorieTrackerComponent } from './fitonlinetraining/calorie-tracker/calorie-tracker.component';
-import { Post7SteroidsComponent } from './posts/post7-steroids/post7-steroids.component';
 import { RecipeSearchComponent } from './fitonlinetraining/calorie-tracker/recipe-search/recipe-search.component';
 
 
@@ -28,6 +29,7 @@ const routes: Routes = [
   { path: 'balanced_diet', component: Post5BalancedDietComponent , data: {animation: 'post5'},},
   { path: 'broscience_busted' , component: Post6BroscienceBustedComponent, data: {animation: 'post6'},},
   { path: 'steroids', component: Post7SteroidsComponent, data: {animation: 'post5'}},
+  { path: 'fit_student' , component: Post8FitCollegeStudentComponent, data: {animation: 'post6'}},
   { path: 'newsletter' , component:NewsletterComponent},
   { path: 'newsletter2' , component: Newsletter2Component},
   { path: 'about' , component: AboutComponent},
