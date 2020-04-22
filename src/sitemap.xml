@@ -1,11 +1,5 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
-
-<url>
-    <loc>http://www.bestfitnessplans.com/</loc>
-    <changefreq>weekly</changefreq>
-</url>
-
 <url>
     <loc>https://www.fastfit21.com/</loc>
     <changefreq>weekly</changefreq>
@@ -37,6 +31,16 @@
 </url>
 
 <url>
+    <loc>https://www.fastfit21.com/broscience_busted</loc>
+    <changefreq>weekly</changefreq>
+</url>
+
+<url>
+    <loc>https://www.fastfit21.com/fit_student</loc>
+    <changefreq>weekly</changefreq>
+</url>
+
+<url>
     <loc>https://www.fastfit21.com/immunity_infections</loc>
     <changefreq>weekly</changefreq>
 </url>
@@ -47,8 +51,12 @@
 </url>
 
 <url>
-    <loc>https://www.fastfit21.com/train_with_them</loc>
+    <loc>https://www.fastfit21.com/recipe_search</loc>
     <changefreq>weekly</changefreq>
 </url>
 
+<url>
+    <loc>https://www.fastfit21.com/steroids</loc>
+    <changefreq>weekly</changefreq>
+</url>
 </urlset>

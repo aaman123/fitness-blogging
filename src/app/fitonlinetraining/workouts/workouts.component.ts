@@ -14,3 +14,4 @@ export class WorkoutsComponent implements OnInit {
   }
 
 }
+ 

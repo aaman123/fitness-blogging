@@ -14,6 +14,8 @@ import { Post4CoronainfectionsComponent } from './posts/post4-coronainfections/p
 import { Post5BalancedDietComponent } from './posts/post5-balanced-diet/post5-balanced-diet.component';
 import { Post6BroscienceBustedComponent } from './posts/post6-broscience-busted/post6-broscience-busted.component';
 import { Post7SteroidsComponent } from './posts/post7-steroids/post7-steroids.component';
+import { Post8FitCollegeStudentComponent } from './posts/post8-fit-college-student/post8-fit-college-student.component';
+import { Post9FitnessPlateausComponent } from './posts/post9-fitness-plateaus/post9-fitness-plateaus.component';
 
 import { Newsletter2Component } from '../app/layouts/newsletter2/newsletter2.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
@@ -32,7 +34,7 @@ import { TrainersComponent } from './fitonlinetraining/trainers/trainers.compone
 import { WorkoutsComponent } from './fitonlinetraining/workouts/workouts.component';
 import { CalorieTrackerComponent } from './fitonlinetraining/calorie-tracker/calorie-tracker.component';
 import { RecipeSearchComponent } from './fitonlinetraining/calorie-tracker/recipe-search/recipe-search.component';
-import { Post8FitCollegeStudentComponent } from './posts/post8-fit-college-student/post8-fit-college-student.component';
+
 
 
 
@@ -50,6 +52,7 @@ import { Post8FitCollegeStudentComponent } from './posts/post8-fit-college-stude
     Post6BroscienceBustedComponent,
     Post7SteroidsComponent,
     Post8FitCollegeStudentComponent,
+    Post9FitnessPlateausComponent,
     NewsletterComponent,
     Newsletter2Component,
     FooterComponent,
