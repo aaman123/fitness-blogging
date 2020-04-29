@@ -18,6 +18,7 @@ import { TrainersComponent } from './fitonlinetraining/trainers/trainers.compone
 import { WorkoutsComponent } from './fitonlinetraining/workouts/workouts.component';
 import { CalorieTrackerComponent } from './fitonlinetraining/calorie-tracker/calorie-tracker.component';
 import { RecipeSearchComponent } from './fitonlinetraining/calorie-tracker/recipe-search/recipe-search.component';
+import { Post10MuscleGainTimeComponent } from './posts/post10-muscle-gain-time/post10-muscle-gain-time.component';
 
 
 
@@ -33,6 +34,7 @@ const routes: Routes = [
   { path: 'steroids', component: Post7SteroidsComponent, data: {animation: 'post5'}},
   { path: 'fit_student' , component: Post8FitCollegeStudentComponent, data: {animation: 'post6'}},
   { path: 'bodybuilding_plateaus', component: Post9FitnessPlateausComponent, data: {animation: 'post5'}},
+  { path: 'how_much_time_to_gain_muscle', component: Post10MuscleGainTimeComponent, data: {animation: 'post6'}},
   { path: 'newsletter' , component:NewsletterComponent},
   { path: 'newsletter2' , component: Newsletter2Component},
   { path: 'about' , component: AboutComponent},
