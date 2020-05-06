@@ -31,6 +31,8 @@
               "src/assets/css/coming-sssoon.css",
               "node_modules/animate.css/animate.css",
               "src/assets/css/jquery.fancybox.css",
+              "node_modules/owl.carousel/dist/assets/owl.carousel.min.css",
+              "node_modules/owl.carousel/dist/assets/owl.theme.default.min.css",
               "src/styles.css"
             ],
             "scripts": [
@@ -38,7 +40,8 @@
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
               "node_modules/wowjs/dist/wow.js",
               "src/assets/js/jquery.hoverdir.js",
-              "src/assets/js/modernizr.custom.97074.js"
+              "src/assets/js/modernizr.custom.97074.js",
+              "node_modules/owl.carousel/dist/owl.carousel.min.js"
             ]
           },
           "configurations": {

@@ -3086,7 +3086,7 @@ h1,
 
 h2,
 .h2 {
-  font-size: 2.8em;
+  font-size: 1.5em;
 }
 
 h3,
@@ -3104,7 +3104,7 @@ h4,
 
 h5,
 .h5 {
-  font-size: 1.35em;
+  font-size: 1em;
   line-height: 1.4em;
 }
 
@@ -6003,7 +6003,7 @@ License - nucleoapp.com/license/
 
 .card img {
   max-width: 100%;
-  height: auto;
+  height: 450px;
   border-radius: 12px 12px 0 0;
 }
 
