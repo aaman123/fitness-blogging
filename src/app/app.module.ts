@@ -18,6 +18,7 @@ import { Post7SteroidsComponent } from './posts/post7-steroids/post7-steroids.co
 import { Post8FitCollegeStudentComponent } from './posts/post8-fit-college-student/post8-fit-college-student.component';
 import { Post9FitnessPlateausComponent } from './posts/post9-fitness-plateaus/post9-fitness-plateaus.component';
 import { Post10MuscleGainTimeComponent } from './posts/post10-muscle-gain-time/post10-muscle-gain-time.component';
+import { Post11FatLossComponent } from './posts/post11-fat-loss/post11-fat-loss.component';
 
 import { Newsletter2Component } from '../app/layouts/newsletter2/newsletter2.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
@@ -42,6 +43,7 @@ import { RecipeSearchComponent } from './fitonlinetraining/calorie-tracker/recip
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -57,6 +59,7 @@ import { RecipeSearchComponent } from './fitonlinetraining/calorie-tracker/recip
     Post8FitCollegeStudentComponent,
     Post9FitnessPlateausComponent,
     Post10MuscleGainTimeComponent,
+    Post11FatLossComponent,
     NewsletterComponent,
     Newsletter2Component,
     FooterComponent,

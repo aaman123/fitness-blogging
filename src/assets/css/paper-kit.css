@@ -7070,6 +7070,11 @@ License - nucleoapp.com/license/
 /*          Changes for small display      */
 
 @media (max-width: 767px) {
+
+  h5 {
+    font-size: 1.5em;
+  }
+
   #cd-vertical-nav {
     display: none !important;
   }

@@ -19,6 +19,7 @@ import { WorkoutsComponent } from './fitonlinetraining/workouts/workouts.compone
 import { CalorieTrackerComponent } from './fitonlinetraining/calorie-tracker/calorie-tracker.component';
 import { RecipeSearchComponent } from './fitonlinetraining/calorie-tracker/recipe-search/recipe-search.component';
 import { Post10MuscleGainTimeComponent } from './posts/post10-muscle-gain-time/post10-muscle-gain-time.component';
+import { Post11FatLossComponent } from './posts/post11-fat-loss/post11-fat-loss.component';
 
 
 
@@ -35,6 +36,7 @@ const routes: Routes = [
   { path: 'fit_student' , component: Post8FitCollegeStudentComponent, data: {animation: 'post6'}},
   { path: 'bodybuilding_plateaus', component: Post9FitnessPlateausComponent, data: {animation: 'post5'}},
   { path: 'how_much_time_to_gain_muscle', component: Post10MuscleGainTimeComponent, data: {animation: 'post6'}},
+  { path: 'fat_loss', component: Post11FatLossComponent, data: {animation: 'post5'}},
   { path: 'newsletter' , component:NewsletterComponent},
   { path: 'newsletter2' , component: Newsletter2Component},
   { path: 'about' , component: AboutComponent},
