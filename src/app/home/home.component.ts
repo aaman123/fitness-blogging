@@ -25,12 +25,4 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
-  images = ["./assets/img/chest1.jpg","./assets/img/arms1.jpg.jpg","./assets/img/abs1.jpg.jpg"];
-
-  changeImage() {
-    var i = 0;
-    
-    var getImage = document.getElementById('bannerImage').style.backgroundImage = `url(${this.images[i]})`;
-    
-    }
 }
