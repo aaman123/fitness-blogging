@@ -37,36 +37,36 @@ $(window).on("load", function () {
 });
 
 
-  $('.gallery').isotope({
-    // options
-    itemSelector: '.items',
-    layoutMode: 'fitRows'
+//   $('.gallery').isotope({
+//     // options
+//     itemSelector: '.items',
+//     layoutMode: 'fitRows'
     
- });
+//  });
 
 
- var $gallery = $('.gallery').isotope({
-    // options
- });
+//  var $gallery = $('.gallery').isotope({
+//     // options
+//  });
 
- // filter items on button click
- $('.filtering').on('click', 'span', function () {
+//  // filter items on button click
+//  $('.filtering').on('click', 'span', function () {
 
-    var filterValue = $(this).attr('data-filter');
+//     var filterValue = $(this).attr('data-filter');
 
-    $gallery.isotope({filter: filterValue});
+//     $gallery.isotope({filter: filterValue});
 
- });
+//  });
 
- $('.filtering').on('click', 'span', function () {
+//  $('.filtering').on('click', 'span', function () {
 
-    $(this).addClass('active').siblings().removeClass('active');
+//     $(this).addClass('active').siblings().removeClass('active');
 
- });
+//  });
 
- setTimeout(function (){
-    $('.filtering .active').click();
- }, 1500);
+//  setTimeout(function (){
+//     $('.filtering .active').click();
+//  }, 1500);
 
   });
 
