@@ -32,6 +32,7 @@
     "@nguniversal/common": "8.1.0",
     "@nguniversal/express-engine": "v8.2.6",
     "@nguniversal/module-map-ngfactory-loader": "v8.2.6",
+    "@trademe/ng-defer-load": "^8.0.0",
     "@types/jquery": "^3.3.34",
     "animate.css": "^3.7.2",
     "bootstrap": "^4.4.1",

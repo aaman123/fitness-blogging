@@ -33,6 +33,7 @@ import { TransferHttpCacheModule } from '@nguniversal/common';
 import { HttpClientModule } from '@angular/common/http';
 import { NgtUniversalModule } from '@ng-toolkit/universal';
 import { NgwWowModule } from 'ngx-wow';
+import { DeferLoadModule } from '@trademe/ng-defer-load';
 import { TrainersComponent } from './fitonlinetraining/trainers/trainers.component';
 import { WorkoutsComponent } from './fitonlinetraining/workouts/workouts.component';
 import { CalorieTrackerComponent } from './fitonlinetraining/calorie-tracker/calorie-tracker.component';
@@ -97,6 +98,7 @@ import { Post11FatLossModule } from './posts/post11-fat-loss/post11-fat-loss.mod
     FormsModule,
     BrowserAnimationsModule,
     OwlModule,
+    DeferLoadModule,
     // Post1BeginnersModule,
     // Post2SupplementsForBeginnersModule,
     // Post3ExerciseBeginnersModule,
