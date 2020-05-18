@@ -18,6 +18,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
 
     const targets = document.querySelectorAll('img');
+    
 
     const lazyload = target => {
       const io = new IntersectionObserver((entries , observer) => {
