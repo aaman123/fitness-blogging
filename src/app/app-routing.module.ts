@@ -113,11 +113,16 @@ const routes: Routes = [
   { path: 'about' , 
     loadChildren: () => import('../app/layouts/about/about.module').then(m => m.AboutModule)
   },
+  { 
+    path: 'best_home_exercises',
+    loadChildren: () => import('./posts/post12-best-home-exercises/post12-best-home-exercises.module').then(m => m.Post12BestHomeExercisesModule) 
+  },
   { path: 'train_with_them' , component: FitonlinetrainingComponent},
   { path: 'trainers', component: TrainersComponent, data: {animation: 'trainers'}},
   { path: 'workouts', component: WorkoutsComponent, data: {animation: 'workouts'}},
   { path: 'calorie_tracker', component: CalorieTrackerComponent},
-  { path: 'recipe_search', component: RecipeSearchComponent}
+  { path: 'recipe_search', component: RecipeSearchComponent},
+  
    
 ];
 
