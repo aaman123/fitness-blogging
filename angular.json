@@ -36,6 +36,7 @@
               "src/styles.css"
             ],
             "scripts": [
+              "node_modules/jquery/dist/jquery.js",
               "src/assets/js/paper-kit.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
               "node_modules/wowjs/dist/wow.js",
