@@ -1,0 +1,222 @@
+<head>
+    <title>BMI Calculator for women, men and kids</title>
+    <meta name="description" content="Measure your Body Mass Index (BMI) with this simple tool. The Body Mass Index Calculator can be used to indicate if you are underweight, normal, overweight or obese. It provides a reliable indicator of body mass so you can use it to screen for health problems associated with unhealthy weight counts based on your specific measurements.">
+
+
+    <meta name="twitter:card" content="summary_large_image">
+  
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="BMI Calculator for women, men and kids.">
+
+    <meta property="og:description" content="Measure your Body Mass Index (BMI) with this simple tool. The Body Mass Index Calculator can be used to indicate if you are underweight, normal, overweight or obese. It provides a reliable indicator of body mass so you can use it to screen for health problems associated with unhealthy weight counts based on your specific measurements.">
+    
+    <meta property="og:url" content="https://www.fastfit21.com">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1554344728-77cf90d9ed26?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+  
+    <meta name="twitter:site" content="@aman_sutariya">
+    <meta name="twitter:title" content="BMI Calculator for women,men and kids.">
+
+    <meta name="twitter:description" content="Measure your Body Mass Index (BMI) with this simple tool. The Body Mass Index Calculator can be used to indicate if you are underweight, normal, overweight or obese. It provides a reliable indicator of body mass so you can use it to screen for health problems associated with unhealthy weight counts based on your specific measurements.">
+
+    <meta name="twitter:url" content="https://www.fastfit21.com">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1554344728-77cf90d9ed26?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+  </head>
+  
+  
+  <nav class="navbar navbar-expand-lg fixed-top ">
+  <div class="navbar-translate">
+  <a class="navbar-brand" routerLink="/" rel="tooltip" title="Fitness and HealthCare" data-placement="bottom" target="_blank">
+    <img class="logo animated rubberBand infinite slower" alt="website-logo" data-lazy
+    ="../assets/img/FastFit21.png"/>
+  </a>
+  <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-bar bar1"></span>
+    <span class="navbar-toggler-bar bar2"></span>
+    <span class="navbar-toggler-bar bar3"></span>
+  </button>
+  </div>
+  <div class="collapse navbar-collapse justify-content-end" id="navigation">
+  <ul class="navbar-nav">
+      <li class="nav-item">
+      <a class="nav-link" rel="tooltip" data-placement="bottom" href="#">
+        Home
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" rel="tooltip" data-placement="bottom" href="http://www.bestfitnessplans.com/">
+        Join BestFitnessPlans
+      </a>
+    </li>
+    <!-- <li class="nav-item">
+      <a class="nav-link" rel="tooltip"  data-placement="bottom" href="/train_with_them">
+        Products
+      </a>
+    </li> -->
+    
+    <li class="nav-item">
+      <a class="nav-link" rel="tooltip"  data-placement="bottom" href="/recipe_search">
+        Calorie Tracker
+      </a>
+    </li> 
+
+    <li class="nav-item">
+        <a class="nav-link" rel="tooltip"  data-placement="bottom" href="/BMI_Calculator">
+          BMI Calculator
+        </a>
+      </li> 
+    
+  </ul>
+  </div>
+  </nav>
+  <!-- End Navbar -->
+
+
+<div class="main">
+    <div class="container">
+
+    <div class="row">
+      <div class="col-sm-12">
+
+      
+    <div class="title1 text-center pb-5">
+      <div class="radio" style="margin: 2rem;">  
+        <label style="font-family: futura-pt;font-size: larger;">  
+            <input type="radio" name="Imperial"  value="Imperial" (click)="setradio('Imperial')" [checked]='true' ngModel>  
+            Imperial  
+        </label>  
+    </div>  
+    <div class="radio" style="margin: 2rem;">  
+        <label style="font-family: futura-pt;font-size: larger;">  
+            <input type="radio" name="Metric" value="Metric" (click)="setradio('Metric')" ngModel>  
+            Metric  
+        </label>  
+    </div> 
+  </div>
+
+</div>
+</div>
+
+        <div class="row" *ngIf="isSelected('Imperial')">
+            <div class="col-sm-12 ">
+              
+                  <div class="title text-center pb-5">
+
+                      <h1 style="font-family: futura-pt;" class="font-weight-600 m-0">Calculate your Body Mass Index(BMI)</h1>
+                      <span class="hr-line mt-4 mb-4"></span>
+                  
+                      <h3 ng-model>Weight(lbs): {{weight_imperial}}</h3>
+                      <input class="dropdown form-control-sm" placeholder="lbs" type="number" min="0" [(ngModel)]="weight_imperial"/>
+                      <br/>
+                      <br/>
+    
+                      <h3>Height</h3>
+                      <p ng-model>Feet: </p>
+    
+                      <input class="dropdown form-control-sm" type="number" min="0" max="8" [(ngModel)]="feet_imperial"/>
+    
+                      <br/>
+  
+                      <br/>
+   
+                      <p ng-model>Inches: </p>
+      
+                      <input class="dropdown form-control-sm" type="number" min="0" max="11" [(ngModel)]="inches_imperial"/>
+    
+                      <br/>
+  
+                      <br/>
+    
+                      <p ng-model>Height in Inches: {{convertHeight(feet_imperial, inches_imperial)}}</p>
+    
+    
+                      <h1 style="font-family: futura-pt;">Your BMI is {{calcBMI(HeightImperial,weight_imperial)}}</h1>
+    
+   
+    
+                      <h3 style="font-family: futura-pt;">You are {{categorizeImperial(HeightImperial, weight_imperial)}}</h3>
+    
+    
+                      
+
+    
+                      <br/>
+    
+                      <br/>
+
+    
+                      <p>*This BMI calculator is intended for informational purposes only, and should not be interpreted<br/> as specific medical advice. A qualified health care provider should<br/> be consulted before making decisions about therapies and/or health conditions.
+
+                      </p>
+    
+                      </div>
+                    </div>
+        
+                  </div>
+ 
+
+
+
+    <div class="row" *ngIf="isSelected('Metric')">
+      <div class="col-sm-12 ">
+              
+          <div class="title text-center pb-5">
+              
+            <h1 style="font-family: futura-pt;" class="font-weight-600 m-0">Calculate your Body Mass Index(BMI)</h1>
+            <span class="hr-line mt-4 mb-4"></span>
+          
+          
+              
+                    <h3 ng-model>Weight(kg): {{weight_metric}}</h3>
+               
+                    <input class="dropdown form-control-sm" placeholder="kg" type="number" min="0" [(ngModel)]="weight_metric"/>
+              
+                    <br/>
+              
+                    <br/>
+              
+                    <h3>Height: {{height_metric}}</h3>
+     
+                    <p ng-model>CM: </p>
+    
+                    <input class="dropdown form-control-sm" type="number" min="0" max="8" [(ngModel)]="height_metric"/>
+    
+                    <br/>
+  
+                    <br/>
+    
+    
+                    <br/>
+  
+                    <br/>
+     
+                    <p ng-model>Height in Metres: {{convertcm(height_metric)}}</p> 
+    
+    
+                    <h1 style="font-family: futura-pt;">Your BMI is {{calcBMIMetric(HeightMetric,weight_metric)}}</h1>
+    
+   
+    
+                    <h3 style="font-family: futura-pt;">You are {{categorizeMetric(HeightMetric, weight_metric)}}</h3>
+    
+    
+                   
+
+    
+                    <br/>
+    
+                    <br/>
+
+    
+                    <p>
+    
+                      *This BMI calculator is intended for informational purposes only, and should not be interpreted<br/> as specific medical advice. A qualified health care provider should<br/> be consulted before making decisions about therapies and/or health conditions.
+    
+                    </p>
+    
+                </div>
+    
+                </div>
+              </div> 
+
+    </div>
+</div>

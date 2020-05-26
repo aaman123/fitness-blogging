@@ -122,6 +122,8 @@ const routes: Routes = [
   { path: 'workouts', component: WorkoutsComponent, data: {animation: 'workouts'}},
   { path: 'calorie_tracker', component: CalorieTrackerComponent},
   { path: 'recipe_search', component: RecipeSearchComponent},
+  { path: 'BMI_Calculator', loadChildren: () => import('./fitonlinetraining/bmi-calculator/bmi-calculator.module').then(m => m.BMICalculatorModule) },
+  { path: 'navbar', loadChildren: () => import('./layouts/navbar/navbar.module').then(m => m.NavbarModule) },
   
    
 ];

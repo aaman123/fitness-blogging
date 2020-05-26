@@ -13,6 +13,24 @@ $(window).on("load", function () {
      
   }, 3000);
 
+  if ($('.navbar[color-on-scroll]').length != 0) {
+    $(window).on('scroll', pk.checkScrollForTransparentNavbar);
+  }
+
+  $('.navbar-collapse').click(function() {
+    setTimeout(function() {
+      if (pk.misc.navbar_menu_visible == 1) {
+        $('html').removeClass('nav-open');
+        pk.misc.navbar_menu_visible = 0;
+        $('#bodyClick').remove();
+        setTimeout(function() {
+          $toggle.removeClass('toggled');
+        }, 550);
+      }
+    }, 550);
+  });
+
+
 
   $('.lastest_featured_products').owlCarousel({
     loop: true,

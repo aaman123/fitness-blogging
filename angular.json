@@ -29,6 +29,7 @@
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/assets/css/paper-kit.css",
               "src/assets/css/coming-sssoon.css",
+              "src/assets/css/fonts.css",
               "node_modules/animate.css/animate.css",
               "src/assets/css/jquery.fancybox.css",
               "node_modules/owl.carousel/dist/assets/owl.carousel.min.css",
@@ -37,6 +38,8 @@
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.js",
+              "src/assets/js/bmi.js",
+              "src/assets/js/form-animation.js",
               "src/assets/js/paper-kit.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
               "node_modules/wowjs/dist/wow.js",

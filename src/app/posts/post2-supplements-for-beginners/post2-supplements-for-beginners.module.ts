@@ -5,6 +5,7 @@ import { Post2SupplementsForBeginnersRoutingModule } from './post2-supplements-f
 import { Post2SupplementsForBeginnersComponent } from './post2-supplements-for-beginners.component';
 import { FooterModule } from 'src/app/layouts/footer/footer.module';
 import { SidebarModule } from 'src/app/layouts/sidebar/sidebar.module';
+import { NavbarModule } from 'src/app/layouts/navbar/navbar.module';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { SidebarModule } from 'src/app/layouts/sidebar/sidebar.module';
   imports: [
     CommonModule,
     Post2SupplementsForBeginnersRoutingModule,
+    NavbarModule,
     SidebarModule,
     FooterModule
   ]

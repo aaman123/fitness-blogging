@@ -97,6 +97,7 @@ import { Post11FatLossModule } from './posts/post11-fat-loss/post11-fat-loss.mod
     FormsModule,
     BrowserAnimationsModule,
     OwlModule,
+    FormsModule,
     // Post1BeginnersModule,
     // Post2SupplementsForBeginnersModule,
     // Post3ExerciseBeginnersModule,

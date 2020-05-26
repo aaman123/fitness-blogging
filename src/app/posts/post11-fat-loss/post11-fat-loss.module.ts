@@ -5,6 +5,7 @@ import { Post11FatLossRoutingModule } from './post11-fat-loss-routing.module';
 import { Post11FatLossComponent } from './post11-fat-loss.component';
 import { FooterModule } from 'src/app/layouts/footer/footer.module';
 import { SidebarModule } from 'src/app/layouts/sidebar/sidebar.module';
+import { NavbarModule } from 'src/app/layouts/navbar/navbar.module';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { SidebarModule } from 'src/app/layouts/sidebar/sidebar.module';
   imports: [
     CommonModule,
     Post11FatLossRoutingModule,
+    NavbarModule,
     SidebarModule,
     FooterModule,
 

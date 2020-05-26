@@ -5,6 +5,7 @@ import { Post9FitnessPlateausRoutingModule } from './post9-fitness-plateaus-rout
 import { Post9FitnessPlateausComponent } from './post9-fitness-plateaus.component';
 import { FooterModule } from 'src/app/layouts/footer/footer.module';
 import { SidebarModule } from 'src/app/layouts/sidebar/sidebar.module';
+import { NavbarModule } from 'src/app/layouts/navbar/navbar.module';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { SidebarModule } from 'src/app/layouts/sidebar/sidebar.module';
   imports: [
     CommonModule,
     Post9FitnessPlateausRoutingModule,
+    NavbarModule,
     SidebarModule,
     FooterModule,
   ],

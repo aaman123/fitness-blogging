@@ -5,6 +5,7 @@ import { Post8FitCollegeStudentRoutingModule } from './post8-fit-college-student
 import { Post8FitCollegeStudentComponent } from './post8-fit-college-student.component';
 import { FooterModule } from 'src/app/layouts/footer/footer.module';
 import { SidebarModule } from 'src/app/layouts/sidebar/sidebar.module';
+import { NavbarModule } from 'src/app/layouts/navbar/navbar.module';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { SidebarModule } from 'src/app/layouts/sidebar/sidebar.module';
   imports: [
     CommonModule,
     Post8FitCollegeStudentRoutingModule,
+    NavbarModule,
     SidebarModule,
     FooterModule,
 
