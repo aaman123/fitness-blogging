@@ -124,6 +124,7 @@ const routes: Routes = [
   { path: 'recipe_search', component: RecipeSearchComponent},
   { path: 'BMI_Calculator', loadChildren: () => import('./fitonlinetraining/bmi-calculator/bmi-calculator.module').then(m => m.BMICalculatorModule) },
   { path: 'navbar', loadChildren: () => import('./layouts/navbar/navbar.module').then(m => m.NavbarModule) },
+  { path: 'weight_loss_journey_elleah', loadChildren: () => import('./posts/post13-elleah-morgan/post13-elleah-morgan.module').then(m => m.Post13ElleahMorganModule) },
   
    
 ];
