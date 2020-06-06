@@ -125,6 +125,7 @@ const routes: Routes = [
   { path: 'BMI_Calculator', loadChildren: () => import('./fitonlinetraining/bmi-calculator/bmi-calculator.module').then(m => m.BMICalculatorModule) },
   { path: 'navbar', loadChildren: () => import('./layouts/navbar/navbar.module').then(m => m.NavbarModule) },
   { path: 'weight_loss_journey_elleah', loadChildren: () => import('./posts/post13-elleah-morgan/post13-elleah-morgan.module').then(m => m.Post13ElleahMorganModule) },
+  { path: 'best_cardio_exercises', loadChildren: () => import('./posts/post14-best-cardio-exercises/post14-best-cardio-exercises.module').then(m => m.Post14BestCardioExercisesModule) },
   
    
 ];

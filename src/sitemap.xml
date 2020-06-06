@@ -2,6 +2,16 @@
 
 
 <url>
+    <loc>https://www.fastfit21.com/</loc>
+    <changefreq>weekly</changefreq>
+</url>
+
+<url>
+    <loc>https://www.fastfit21.com/BMI_Calculator</loc>
+    <changefreq>weekly</changefreq>
+</url>
+
+<url>
     <loc>https://www.fastfit21.com/about</loc>
     <changefreq>weekly</changefreq>
 </url>
@@ -13,6 +23,11 @@
 
 <url>
     <loc>https://www.fastfit21.com/beginners_exercise</loc>
+    <changefreq>weekly</changefreq>
+</url>
+
+<url>
+    <loc>https://www.fastfit21.com/best_home_exercises</loc>
     <changefreq>weekly</changefreq>
 </url>
 
@@ -68,6 +83,11 @@
 
 <url>
     <loc>https://www.fastfit21.com/steroids</loc>
+    <changefreq>weekly</changefreq>
+</url>
+
+<url>
+    <loc>https://www.fastfit21.com/weight_loss_journey_elleah</loc>
     <changefreq>weekly</changefreq>
 </url>
 </urlset>
