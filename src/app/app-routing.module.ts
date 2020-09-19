@@ -127,10 +127,7 @@ const routes: Routes = [
   { path: 'weight_loss_journey_elleah', loadChildren: () => import('./posts/post13-elleah-morgan/post13-elleah-morgan.module').then(m => m.Post13ElleahMorganModule) },
   { path: 'best_cardio_exercises', loadChildren: () => import('./posts/post14-best-cardio-exercises/post14-best-cardio-exercises.module').then(m => m.Post14BestCardioExercisesModule) },
   { path: 'pilates', loadChildren: () => import('./posts/post15-pilates/post15-pilates.module').then(m => m.Post15PilatesModule) },
-  { path: 'upload', loadChildren: () => import('./upload/upload.module').then(m => m.UploadModule) },
-  { path: 'dialog', loadChildren: () => import('./upload/dialog/dialog.module').then(m => m.DialogModule) },
-  
-   
+     
 ];
 
 @NgModule({
