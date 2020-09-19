@@ -11,6 +11,7 @@ import { NewsletterComponent } from './newsletter/newsletter.component';
 import { FooterComponent } from './layouts/footer/footer.component';
 import { SidebarComponent } from './layouts/sidebar/sidebar.component';
 import { AppModule } from './app.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -21,6 +22,8 @@ import { AppModule } from './app.module';
     AppModule,
     
     BrowserTransferStateModule,
+    
+    BrowserAnimationsModule,
 
   ],
   providers: [],

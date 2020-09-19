@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { OwlModule } from 'ngx-owl-carousel';
 import { NgModule } from '@angular/core';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 // import { HomeComponent } from './home/home.component';
@@ -50,6 +51,7 @@ import { Post8FitCollegeStudentModule } from './posts/post8-fit-college-student/
 import { Post9FitnessPlateausModule } from './posts/post9-fitness-plateaus/post9-fitness-plateaus.module';
 import { Post10MuscleGainTimeModule } from './posts/post10-muscle-gain-time/post10-muscle-gain-time.module';
 import { Post11FatLossModule } from './posts/post11-fat-loss/post11-fat-loss.module';
+
 
 
 
@@ -110,7 +112,7 @@ import { Post11FatLossModule } from './posts/post11-fat-loss/post11-fat-loss.mod
     // Post10MuscleGainTimeModule,
     // Post11FatLossModule
      SidebarModule,
-     FooterModule
+     FooterModule,
 
   ],
   providers: [],
